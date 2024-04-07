@@ -1,0 +1,18 @@
+#!/bin/bash 
+echo -e "\033[0;34m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m"
+echo -e "\033[0;34m┃\E[44;1;37m            ALTERAR CONTRASEÑA ROOT           \E[0m\033[0;34m┃"
+echo -e "\033[0;34m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m\n"
+echo -e "\033[1;31mATENCIÓN!!\033[0m"
+echo " "
+echo -e "\033[1;33mEsa CONTRASEÑA sera usada para entrar a su servidor
+\033[0m"
+echo -e "\033[1;32mDIGITE NUEVA CONTRASEÑA \033[1;32m
+para continuar...\033[1;31m\033[0m"
+read  -p : pass
+(echo $pass; echo $pass)|passwd 2>/dev/null
+sleep 1s
+echo -e "\033[1;31mCONTRASEÑA ALTERADA CON ÉXITO!\033[0m"
+sleep 5s
+cd
+clear
+
