@@ -175,12 +175,12 @@ cd $HOME
 echo "clear" >> /root/.bashrc
     echo 'DATE=$(date +"%d-%m-%y")' >>/root/.bashrc
     echo 'TIME=$(date +"%T")' >>/root/.bashrc
-    echo 'figlet -k MODDER | lolcat' >>/root/.bashrc
-    echo 'echo -e "\033[1;32m NOMBRE DE SERVIDOR : \033[38;5;196m$HOSTNAME"' >>/root/.bashrc
+    echo 'figlet -k VPNLIBRE | lolcat' >>/root/.bashrc
+    echo 'echo -e "\033[1;34m NOMBRE DE SERVIDOR : \033[38;5;196m$HOSTNAME"' >>/root/.bashrc
     echo 'echo -e "\033[1;32m SERVIDOR APUNTA A : \033[1;31m$(uptime -p)"' >>/root/.bashrc
     echo 'echo -e "\033[1;32m FECHA : \033[1;31m$DATE"' >>/root/.bashrc
     echo 'echo -e "\033[1;32m HORA : \033[1;31m$TIME"' >>/root/.bashrc
-    echo 'echo -e "\033[1;32m ESCRIBE : \033[1;31mmenu\033[1;37m"' >>/root/.bashrc
+    echo 'echo -e "\033[1;36m ESCRIBE : \033[1;31mmenu\033[1;37m"' >>/root/.bashrc
     echo 'echo -e ""' >>/root/.bashrc
     date=$(date '+%Y-%m-%d <> %H:%M:%S')
     echo -e "\033[1;37m $system                          $date"
